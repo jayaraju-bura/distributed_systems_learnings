@@ -24,20 +24,20 @@ type MrReply struct  {
         NReduce     int
         Files       []string
 }
-type NotifyReply {
+type NotifyReply struct{
 
 }
 
-type NotifyIntermediateArgs {
+type NotifyIntermediateArgs struct{
         Reduceindex int
         File        string
 }
 
-type NotifyMapSuccessArgs {
+type NotifyMapSuccessArgs struct{
         File string
 }
 
-type NotifyReduceSuccessArgs {
+type NotifyReduceSuccessArgs struct{
         Reduceindex int
 }
 
