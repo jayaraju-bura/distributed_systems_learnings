@@ -9,7 +9,7 @@ type ExampleArgs struct {
         X int
 }
 
-type ExampleReply {
+type ExampleReply struct{
         Y int
 }
 
